@@ -14,6 +14,7 @@
       <mapping pattern=".docker.imageversion" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping ext="secret" type="PLAIN_TEXT" />
+      <mapping ext="scratch" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="dockerfile" type="PLAIN_TEXT" />
       <mapping ext="plan" type="PLAIN_TEXT" />
