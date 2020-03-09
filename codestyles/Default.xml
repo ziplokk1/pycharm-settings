@@ -1,1 +1,16 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <JSCodeStyleSettings version="0">
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+  </JSCodeStyleSettings>
+  <Properties>
+    <option name="SPACES_AROUND_KEY_VALUE_DELIMITER" value="true" />
+    <option name="KEEP_BLANK_LINES" value="true" />
+  </Properties>
+  <Python>
+    <option name="OPTIMIZE_IMPORTS_SORT_NAMES_IN_FROM_IMPORTS" value="true" />
+    <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
+  </Python>
+  <codeStyleSettings language="Properties">
+    <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
+  </codeStyleSettings>
+</code_scheme>
