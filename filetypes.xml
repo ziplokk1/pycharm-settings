@@ -4,22 +4,22 @@
     <extensionMap>
       <mapping pattern="bin/lint" type="Bash" />
       <mapping pattern="lint" type="Bash" />
-      <mapping ext="push" type="Bash" />
       <mapping ext="build" type="Bash" />
+      <mapping ext="push" type="Bash" />
+      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern=".*rc" type="Ini" />
       <mapping pattern=".coveragerc" type="Ini" />
-      <mapping pattern=".pylintrc" type="Ini" />
       <mapping pattern=".noserc" type="Ini" />
+      <mapping pattern=".pylintrc" type="Ini" />
       <mapping ext="tfstate" type="JSON" />
       <mapping pattern=".docker.imageversion" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
-      <mapping ext="secret" type="PLAIN_TEXT" />
-      <mapping ext="scratch" type="PLAIN_TEXT" />
-      <mapping ext="env" type="PLAIN_TEXT" />
-      <mapping ext="dockerfile" type="PLAIN_TEXT" />
-      <mapping ext="plan" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
-      <removed_mapping pattern=".pylintrc" approved="true" type=".pylint (Pylint Config)" />
+      <mapping ext="dockerfile" type="PLAIN_TEXT" />
+      <mapping ext="scratch" type="PLAIN_TEXT" />
+      <mapping ext="plan" type="PLAIN_TEXT" />
+      <mapping ext="env" type="PLAIN_TEXT" />
+      <mapping ext="secret" type="PLAIN_TEXT" />
       <removed_mapping pattern=".coveragerc" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
